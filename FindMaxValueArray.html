@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        var array = [-3,5,1,63,2,10];
+        var max = array[0];
+        var index = 0;
+        for (var i =1;i<array.length;i++){
+            if (array[i] > max){
+                max = array[i];
+                index = i;
+            }
+        }
+        alert('Max: ' + max + ' at position ' + index);
+    </script>
+</body>
+</html>
